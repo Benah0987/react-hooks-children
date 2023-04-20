@@ -1,5 +1,6 @@
 import React from "react";
 import Container from "./Container";
+import Children from "./Children";
 
 function App() {
   return (
@@ -31,6 +32,10 @@ function App() {
           src="https://pbs.twimg.com/profile_images/3022993403/fdae67d800527328cee7a222f048dbbd.jpeg"
         />
       </Container>
+      <Children title="Fun-Fact" textPosition="center" 
+      fact="Did you know that a group of turtles is called a bale?" />
+
+
     </div>
   );
 }
