@@ -1,6 +1,7 @@
 import React from "react";
 
 function Container({
+  //these are prop
   header,
   children,
   textPosition = "", // possible values: left, right, center
